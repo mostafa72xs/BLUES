@@ -5,6 +5,9 @@ import Footer from '../components/footer'
 import Sidebar from '../components/Sidebar'
 import { useSidenav } from '../components/Hooks/context-sidebar'
 import Cart from '../components/Cart'
+import Image from 'next/image'
+
+
 
 function About() {
   const [ Nav , setNav ] = useSidenav()
@@ -25,7 +28,7 @@ function About() {
               </div>
             </div>
             <div className='ime'>
-              <img src='https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?t=st=1740405067~exp=1740408667~hmac=931b58b1013b46e5dcacf9061d730329d50d8078b74536d2d86c8b2b3868ceab&w=1060' alt='img' height='609px' width='702px' />
+              <Image src='https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?t=st=1740405067~exp=1740408667~hmac=931b58b1013b46e5dcacf9061d730329d50d8078b74536d2d86c8b2b3868ceab&w=1060' alt='img' height={609} width={702} />
             </div>
           </div>
         </div>
