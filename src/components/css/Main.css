@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f1{
+    width: 100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1{
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+/*     background-image: url(https://www.houseoffraser.co.uk/images/marketing/background5.png);
+ */
+    background-image: url(https://oracleoftime.com/wp-content/uploads/2021/02/David-Gandy.jpg);
+}
+.s2{
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-image: url(https://www.houseoffraser.co.uk/images/marketing/background5.png);
+}
+.s3{
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-image: url(https://t4.ftcdn.net/jpg/06/03/65/59/360_F_603655978_mEwBj4mYKTb9CULmbdBBXK8UXqUfwJZl.jpg);
+}
+.s1 div,
+.s2 div,
+.s3 div{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height:450px;
+    text-align: left;
+    margin-left: 800px;
+    color: white;
+    margin-top: 150px;
+    font-size: 25px;
+}
+.s1 button{
+    border: 2px solid white;
+    padding:15px 30px ;
+    font-size: 18px;
+    background: white;
+    color:#013D47 !important; 
+    font-weight: bold;
+    transition: ease 0.4s;
+}
+.s1 button:hover{
+
+    cursor: pointer;
+    background-color: transparent;
+    color:white;
+}
+.mnn{
+    color: white;
+}
+
+.sec2{
+    width: 1100px;
+    height: auto;
+}
+.h1{
+    font-size:50px;
+}
+.line{
+    height: 4px;
+    width: 120px;
+    background-color: #013D47;
+    margin-left: 485px;
+}
+.girdd{
+    width: 100%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    gap: 5px;
+    row-gap: 150px;
+}
+
+.box{
+    display: flex;
+    height: 300px;
+    width:100%;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 300px;
+}
+.box div{
+    width: 520px;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    transition: ease 0.5s;
+}
+.box .wed{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.womangettingmarried.com/wp-content/uploads/2022/03/where-to-find-wedding-suits.jpg);
+}
+
+.wedhed,
+.bushed{
+    padding-left: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    width: 300px;
+    height: 100px;
+}
+.box .bus{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/suiting-trend-businessman-wear-classic-suit-business-formal-style-trendy-menswear-formalwear-classy-wardrobe-fashion-man_265223-16584.jpg);
+}
+
+.bus:hover , .wed:hover {
+    background-position: center;
+}
+
+.slider{
+    height: 400px;
+    margin-top: 250px;
+    margin-left: 20px;
+    margin-bottom: 700px;
+}
+.slidebtn{
+    width:50px; 
+    height:50px;
+    color:white;
+    background-color: #013D47;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right{
+    margin-top: -200px;
+    margin-left: 1070px;
+}
+.left{
+    margin-left: -70px;
+    margin-bottom: -228px;
+}
+.sec3{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9.7%;
+    color:white;
+    background-image : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://cdn.shopify.com/s/files/1/0182/8937/files/Best-London-Mens-Brands-1691_1024x1024.jpg?v=1507218540);
+}
+.sec3 .line{
+    margin-left: 0px;
+/*     margin-bottom: 300px;
+ */}
+.clients{
+    width: 1100px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    text-align: left;
+    justify-content:space-around;
+    align-items: center;
+}
+.bos{
+    padding-left: 50px;
+    width:480px;
+    height:406px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);;
+}
+.bos .firstbox{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: -50px;
+}
+.bos .firstbox img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #013D47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.bos .firstbox .pp{
+    height: 100px;
+    border: none !important;
+    font-size: 20px;
+
+}
+.bos .secbox{
+    width: 90%;
+}
+.brand{
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand img{
+    height:150px;
+    width:170px;
+    margin-top: 20px;
+}
+
+
+
+
+/* ========================================================================================================================
+ */
+
+@media screen and (max-width:480px){
+
+    .container{
+        width: 100%;
+        max-width: 100vh;
+        overflow: hidden;
+    }
+    .s1{
+        width:100%;
+        background-position: center;
+    }
+    .s1 div{
+        width: 500px;
+        height:450px;
+        text-align: center;
+        margin-left: -30px;
+        color: white;
+        margin-top: 150px;
+        font-size: 25px;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+    }
+    .h1{
+        font-size:20px;
+    }
+    .line{
+        height: 4px;
+        width: 120px;
+        background-color: #013D47;
+        margin-left: 150px;
+    }
+    .girdd{
+        width: 400px;
+        height: 3100px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 0px;
+    }
+    .box{
+        display: flex;
+        height: 550px;
+        width:100%;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .box div{
+        width: 430px;
+    }
+    
+    .slider{
+        width: 270px;
+        height: 400px;
+        margin-top: 250px;
+        margin-left: 90px;
+        margin-bottom: 0;
+    }
+    .slidebtn{
+        width:50px; 
+        height:50px;
+        color:white;
+        background-color: #013D47;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .right{
+        margin-top: -207px;
+        margin-left: 100%;
+        z-index: 1200;
+    }
+    .left{
+        margin-right: 30%;
+        margin-bottom: -228px;
+    }
+
+    .sec3{
+        display: none;
+    }
+
+    .brand{
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+}

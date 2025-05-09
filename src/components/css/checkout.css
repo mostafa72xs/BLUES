@@ -1,0 +1,194 @@
+.out{
+    margin-bottom:50px;
+    margin-left: 50px;
+
+}
+.ch21{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Address{
+    width:470px;
+    height: 819px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Address input{
+    width: 100%;
+    height: 56px;
+}
+label{
+    color:grey
+}
+.checksbox{
+    width: 24px  !important;
+    margin-right: 10px;
+    height: 24px !important;
+    background-color: #013D47 !important;
+    margin-top: 20px;
+
+}
+.checksbox:checked{
+    color: #013D47;
+    background-color: #013D47 !important;
+}
+.check302{
+    width:527px;
+    height: 600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.ip301{
+    width: 425px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.x300{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+}
+.x300 img{
+    margin-left: -30px;
+    margin-right: 20px;
+}
+.x300 div{
+    width:150px;
+    margin-left:20px;
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+    flex-direction: row;
+    margin-bottom:50px;
+}
+.x300 p{
+    font-size:14px;
+    text-align: left;
+}
+.para{
+    margin-left: -100px;
+}
+.tot{
+    width:422px;
+    height:136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .subtot{
+    width:442px;
+    height: 43px;
+    border: none;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.check .radio{
+    width: 200px;
+    height:50px
+}
+.rad{
+    font-size: 20px;
+    width: 100px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.cou{
+    width:572px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.cou input{
+    width: 300px;
+    border-radius: 4px;
+    height: 56px;
+}
+.cou button{
+    width: 211px;
+    height: 56px;
+    background-color: #013D47;
+    border: none;
+    color:white;
+    border-radius: 4px;
+}
+.po{
+    width: 190px;
+    height: 56px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: white;
+    margin-left:350px;
+    background-color: #013D47;
+}
+
+@media (max-width:992px) {
+    .ch21 {
+        flex-direction:column;
+    }
+    .cou{
+        height: auto;
+        gap: 20px;
+        margin-left: 15px;
+        flex-direction: column;
+    }
+    .Address{
+        width:350px;
+    }
+    .tot{
+        width:350px;
+        margin-left: 20px;
+        height: auto;
+    }
+    .tot .subtot{
+        width:350px;
+    }
+    .po{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .check302{
+        margin-bottom: 50px;
+        width:350px;
+        margin-left: -50px;
+        margin-top: 200px;
+    }
+    .x300{
+        width: 90%;
+        font-size: 12px;
+    }
+    .x300 div{
+        width:150px;
+        margin-left:20px;
+        display:flex;
+        justify-content:center;
+        gap: 100px;
+        flex-direction: row;
+        margin-bottom:50px;
+    }
+    .radio{
+        display:flex;
+        width:90%
+    }
+
+}

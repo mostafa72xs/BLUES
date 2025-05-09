@@ -1,0 +1,148 @@
+#Store{
+    width:100%;
+    color:black;
+    background:white;
+    height: auto;
+    min-height: 700px;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.mainbar{
+    z-index: 21;
+    width:100%;
+    height: auto;
+    display: flex;
+    gap: 100px;
+    text-align: left;
+}
+.products{
+    padding-left: 100px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    font-size: 15px;
+    width:220px;
+}
+button{
+    border:none;
+    cursor: pointer;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.hb{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height:100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.hb h1 {
+    font-size: 26px;
+} 
+.products ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+
+}
+.products .fillbtn{
+    font-size: 14px;
+    font-weight: lighter;
+ 
+}
+.products .fillbtn:hover{
+    text-shadow: -3px 3px 2px rgba(255,255,255,0.6);
+}
+
+.products .fillbtn:focus{
+    text-decoration: underline;
+}
+.arrows{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    padding-left: 100px;
+    font-size:21px;
+}
+.homss{
+    color:black !important;
+}
+.products-list{
+    width: 970px;
+    height: auto;
+    padding-left: 50px;
+    display:flex;
+    flex-direction: column;
+}
+.noob{
+    font-size: 70px;
+    font-weight: bold;
+}
+.filter{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid{
+    width: 950px;
+    z-index: 21;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap:6px;
+    margin-top: 40px;
+}
+
+.grid .data{
+    max-width: 320px;
+    height:510px;
+}
+.grid #Btnadd{
+    width: 150px;
+    border-radius: 30px;
+    height: 38px;
+    color: black;
+    border: none;
+    transition: all 0.5s;
+
+}
+.grid #Btnadd:hover{
+    background-color: purple;
+}
+
+
+/* =========================================================================================================================== */
+
+
+@media screen and (max-width:480px){
+
+    .mainbar{
+        flex-direction: column;
+    }
+    .products,
+    .noob,
+    .filter
+    {
+        display: none;
+    }
+    .hb{
+        display: none;
+        }
+    .grid{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+}

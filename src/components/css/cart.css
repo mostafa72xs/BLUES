@@ -1,0 +1,476 @@
+
+.contner_1{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.6) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    min-width: 100%;
+}
+button{
+    border: none;
+}
+.cartA{
+    height: 550px;
+    width: 950px;
+    position: fixed;
+    z-index: 100;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+}
+.items-in-the-bag{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    height: 100px;
+    color: rgb(56, 56, 56) !important;
+    display:flex;
+    flex-direction: column;
+    font-size: small;
+    display:flex;
+    justify-content:center;
+    align-items:left;
+}
+
+.h4{
+    color: black;
+    font-weight:lighter;
+}
+.text h3{
+    color:rgb(56, 56, 56);
+    font-weight: bold;
+    font-size: medium;
+}
+.text p{
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+.cartB{
+    height: 100px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 320px;
+    align-items: center;
+    background-color:whitesmoke;
+    color: black;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-bottom: 1px solid black;
+}
+.cartB h1{
+    font-size: 25px;
+}
+
+.cartN h1{
+    margin-left: -50px;
+}
+
+.itemss{
+    height: 400px;
+    width: 650px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: #908792 #4c4848;
+}
+
+  /* Chrome, Edge, and Safari */
+  .itemss::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .itemss::-webkit-scrollbar-track {
+    background: #4c4848;
+  }
+
+  .itemss::-webkit-scrollbar-thumb {
+    background-color: #908792;
+    border-radius: 10px;
+    border: 3px solid #908792;
+  }
+
+
+
+.cartC{
+    height: 100px;
+    width: 620px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px black solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: rgb(56, 56, 56) !important;
+    margin-left: 15px;
+}
+
+.cartC .cimg{
+    height: 80px;
+    width: 100px;
+    overflow: hidden;
+}
+.cartC .cimg img{
+    height: 80px;
+    width: 100px;
+}
+
+.cartD{
+    margin-left: 15px;
+    height: 28px;
+    width: 64px;
+    display: flex;
+    gap: 7px;
+}
+.cartD div{
+    height: 28px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.cartD button{
+    width: 21px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    color: rgb(56, 56, 56);
+}
+.cartE{
+    margin-left:-10px;
+}
+.smallbtn{
+    color: rgb(56, 56, 56);
+    font-size: 12px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+.backhomebtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    position: fixed;
+    margin-top: 500px;
+    padding-left: 20px;
+}
+.backhomebtn button{
+    color: rgb(56, 56, 56);
+    background-color: transparent;
+    border: none;
+}
+.backhomebtn span{
+    font-size: 15px;
+}
+
+.carttotal{
+    height: 550px;
+    width: 300px;
+    background-color: #013D47;
+    display: flex;
+    justify-content: center;
+}
+.carttotal h2{
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.t{
+    width: 200px;
+    height: 550px;
+
+}
+.summary{
+    width: 100%;
+    font-size: 15px;
+    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choices{
+    width:100%;
+    height: 240px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.choices input{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.tpc{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.tp{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    height: 35px;
+    border-radius: 5px;
+    color:black;
+    
+    width: 200px;
+
+}
+.btncheck{
+    width:150px;
+    height:40px;
+    font-size: 16px;
+    text-align:center;
+    background-color: white;
+    color: #013D47;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: ease 0.5s;
+    margin-top: -50px;
+    border: 3px solid  #013D47;
+
+}
+
+.btncheck:hover{
+    border: 3px solid  white;
+    background-color: #013D47;
+    color: #ffff;
+}
+
+.btncart{
+    height:70px;
+    width:75px;
+    background:#013D47;
+    position: fixed;
+    border-radius: 50%;
+    margin-left:92%;
+    margin-top: 300px;
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+    z-index:98;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btncart span{
+    position:absolute;
+    margin-top:-20px;
+    margin-left: -20px;
+    color:white;
+    font-size: 16px;
+    height: 20px;
+    width:20px;
+    background-color:transparent;
+    border-radius: 50px;
+    font-weight: bold;
+} 
+
+.ctlgo{
+    color:white;
+    font-size: 25px;
+    background-color:transparent !important;
+}
+.ctlgo:hover{
+    color: grey;
+    transition: 0.3s ease;
+}
+
+@keyframes jumb{
+    0% {margin-left:1100px;}
+    25%{margin-left:1110px;}
+    50% {margin-right:1120px;}
+    100% {margin-left:1100px};
+}
+
+    .perice{
+        display:none
+    }
+
+
+
+
+
+
+/* ===============================================================================================
+ */
+
+
+@media screen and (max-width:480px){
+
+    .btncart{
+        margin-left: 80%;
+    }
+    .cartA{
+    width: 100%;
+    height:98%;
+    max-height: 98%;
+    flex-direction: column;
+    align-items: center;
+    }
+    .cartB{
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+        gap: 0px;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        margin-top: 10px;
+        position: absolute;
+    }
+    .cartB h1{
+        margin-bottom: -10px;
+    }
+    .itemss{
+        overflow-y: scroll;
+        height:500px;
+        width: 100%;
+        max-height: 500px;
+        margin-top: 60px;
+    }
+    .cartC{
+        height: 100px;
+        border: none;
+        width: 100vw;
+        margin-top: 5px;
+    }
+    .carttotal{
+        font-size: 12px;
+        width: 100%;
+        border-radius: 15px;
+        height: 180px;
+        margin-top: -0px;
+        background: white;
+    }
+    .t{
+    width: 98%;
+    height: 200px;
+    }
+    .tpc{
+        height:auto;
+        width:98%;
+        display: flex;
+        margin-top: -100px;
+        flex-direction: column;
+    }
+    .summary{
+        display:none
+    }
+    .item-price{
+    display:none;
+    }
+    .tp{
+        margin-top: -130px;
+        color:black;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+        font-size:15px;
+    }
+
+    .text{
+        font-size: 10px;
+        height:20px;
+        margin-top: -15px;
+    }
+    .text p{
+        font-size: 10px;
+        margin-bottom: -10px;
+    }
+    .btncheck{
+    height: 50px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    color:white;
+    background-color: #013D47;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    }
+    .choices{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .choices select{
+        margin-top: -5px;
+    }
+    .nile{
+        display:none
+    }
+    .group{
+        display: flex;
+    }
+    .rice{
+        display:none
+    }
+    .perice{
+        font-size: 20px;
+        display:block;
+        margin-top:-10px
+    }
+    .cartE{
+        display:none
+    }
+    .cimg{
+        height: 50px;
+        width: 50px;
+        border-radius: 4px;
+    }
+    .cimg img{
+        height: 50px;
+        width: 50px;
+    }
+    .backhomebtn{
+    width: 50px;
+    margin-left: 0%;
+    color: white;
+    padding-left: 10px;
+    margin-top: 0px;
+    height: 50px;
+    }
+    .backhomebtn span{
+        font-size: 30px !important;
+        margin-left: 5px;
+    }
+    .backhomebtn .nono{
+        display: none;
+    }
+}

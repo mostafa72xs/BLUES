@@ -1,0 +1,42 @@
+.card{
+    width: 240px;
+    height: 390px;
+    max-height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.cardLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 230px;
+    height: 220px;
+}
+h1{
+    font-size: 20px;
+}
+.spaa{
+    color: rgb(27, 29, 26);
+    font-size:15px;
+    margin-top: -3px;
+}
+.card button{
+    width: 170px;
+    height: 42px;
+    background-color: #013D47;
+    color:white;
+    border: 1px solid #013D47;
+    transition: ease 0.5s;
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#013D47;
+
+}
