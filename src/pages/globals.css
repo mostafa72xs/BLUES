@@ -12,7 +12,9 @@
     --foreground: #ededed;
   }
 }
-
+.tags{
+  text-align:left;
+}
 html,
 body {
   font-family: "Inter", sans-serif;
