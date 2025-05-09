@@ -20,7 +20,7 @@ function Contact() {
                         <Cart />
                 <Navbar />
                 
-        <div className='container contact'> 
+        <div className='contact'> 
             <div style={{fontSize:'21px'}}>Home / Contact</div>
         <div className='cont21'>
             <div className='boxtex'>
