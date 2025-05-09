@@ -7,7 +7,6 @@ import { useSelector } from 'react-redux';
 import { useResult } from '../components/Hooks/shippingContext';
 import Sidebar from '../components/Sidebar';
 import { useSidenav } from '../components/Hooks/context-sidebar';
-import Image from 'next/image'
 
 
 
@@ -53,7 +52,7 @@ function Checkout() {
                             {items.map((item, index) => (
                                 <li key={index} className='x300'>
                                     <div className='d-flex'>
-                                        <Image src={item.img} alt={item.name} height={50} width={50} />
+                                        <img src={item.img} alt={item.name} className='coldimg' />
                                         <p className='para'>{item.name}</p>
                                     </div>
                                     <p>${item.price.toFixed(2)}</p>
