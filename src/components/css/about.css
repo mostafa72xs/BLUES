@@ -3,6 +3,10 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.coldsto{
+        height: 609px;
+    width:708px;
+    }
 .tworow{ 
     display: flex;
     justify-content: space-between;
