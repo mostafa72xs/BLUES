@@ -27,7 +27,7 @@ function About() {
               </div>
             </div>
             <div className='ime'>
-              <Image src='https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?t=st=1740405067~exp=1740408667~hmac=931b58b1013b46e5dcacf9061d730329d50d8078b74536d2d86c8b2b3868ceab&w=1060' alt='img' className='coldsto' />
+              <img src='https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?t=st=1740405067~exp=1740408667~hmac=931b58b1013b46e5dcacf9061d730329d50d8078b74536d2d86c8b2b3868ceab&w=1060' alt='img' className='coldsto' />
             </div>
           </div>
         </div>
