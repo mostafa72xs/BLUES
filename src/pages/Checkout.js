@@ -23,7 +23,7 @@ function Checkout() {
         <div>
             {Nav && <Sidebar />}
             <Navbar />
-            <div className='container out mt-5'>
+            <div className='out'>
                 <p>Home / <b>Checkout</b></p>
                 <h1 className='mb-3 out'>Billing Details</h1> 
                 <div className='d-flex ch21'>
