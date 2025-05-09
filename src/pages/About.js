@@ -16,7 +16,7 @@ function About() {
                 }<Cart />
                 <Navbar />
                 
-        <div className='container about'>
+        <div className='about'>
           <div className='tags d-flex'>Home /About</div>
           <div className='d-flex tworow'>
             <div className='tex'>
