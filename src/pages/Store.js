@@ -6,22 +6,22 @@ import Cart from '../components/Cart.js';
 import Sidebar from '../components/Sidebar.js'
 import { useSidenav } from "../components/Hooks/context-sidebar.js";
 
-export async function getStaticProps() {
-    const res = await fetch('https://api-chi-teal-89.vercel.app/api');
-    const pro = await res.json();
-    
-  
-    return {
-      props: { pro },
-    };
-  }
+
+export async function getServerSideProps() {
+  const res = await fetch('http://localhost:3000/api/products');
+  const pro = await res.json();
+
+  return {
+    props: { pro },
+  };
+}
+
 
 function Store({pro}) {
-    const [ Nav , setNav ] = useSidenav()
+    const [ Nav , setNav ] = useSidenav()    
 return (
     <div>
-        {Nav &&(
-                <Sidebar />)}
+        {Nav &&(<Sidebar />)}
         <Cart />
         <Navbar />
         <MainS Data={pro.message} />

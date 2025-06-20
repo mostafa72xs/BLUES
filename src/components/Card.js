@@ -4,6 +4,7 @@ import Loading from './Hooks/Loading';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/slices/cartSlice';
 import Link from 'next/link'
+import { IoEyeOutline } from "react-icons/io5";
 
 
 function Card(props) {
@@ -22,12 +23,15 @@ const slug = props.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/
     setTimeout(()=>{
         setloading(false);
     },2000);
-}
+} 
   return (
     <div className='card' keys={props.key}>
       <Link href={`/products/${slug}`} className='cardLink' style={{color:'black'}}>
-      <div>
+      <div className='eyecontact'>
         <img src={props.image} alt='imgg' />
+        <div className='iconeye'>
+          <IoEyeOutline />
+        </div>
       </div>
         <h1 style={{color:'black'}}>{props.title}</h1>
         </Link>

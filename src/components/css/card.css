@@ -14,6 +14,25 @@
     justify-content: center;
     align-items: center;
 }
+.iconeye{
+    display: none !important;
+    position: absolute;
+    width:50px;
+    transition: ease 0.5s;
+    display:grid;
+    place-items: center; 
+    height:50px;
+    border-radius: 50px;
+    margin-top: -100px;
+    margin-left: 100px;
+    background-color: #b9bcbd;
+    color: white;
+    font-size: 24px;
+}
+.eyecontact:hover > .iconeye{
+    display: grid !important;
+    transition: ease 0.5s;
+}
 img{
     width: 230px;
     height: 220px;

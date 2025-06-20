@@ -3,10 +3,6 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.coldsto{
-        height: 609px;
-    width:708px;
-    }
 .tworow{ 
     display: flex;
     justify-content: space-between;
@@ -35,12 +31,13 @@
     font-weight: 400;
 }
 .ime{
-    height: 609px;
-    width:605px;
-    margin-left: 50px;
+    height: 609px !important;
+    width:705px   !important;
 }
 .ime img{
-    object-fit: cover;
+    object-fit: fill !important;
+        height: 609px !important;
+    width:705px   !important;
 }
 
 @media (max-width: 992px){

@@ -8,8 +8,6 @@ import { useResult } from '../components/Hooks/shippingContext';
 import Sidebar from '../components/Sidebar';
 import { useSidenav } from '../components/Hooks/context-sidebar';
 
-
-
 function Checkout() {
     const [Nav, setNav] = useSidenav();
     const [result, setResult] = useResult();
@@ -23,7 +21,7 @@ function Checkout() {
         <div>
             {Nav && <Sidebar />}
             <Navbar />
-            <div className='out'>
+            <div className='container out mt-5'>
                 <p>Home / <b>Checkout</b></p>
                 <h1 className='mb-3 out'>Billing Details</h1> 
                 <div className='d-flex ch21'>
@@ -52,7 +50,7 @@ function Checkout() {
                             {items.map((item, index) => (
                                 <li key={index} className='x300'>
                                     <div className='d-flex'>
-                                        <img src={item.img} alt={item.name} className='coldimg' />
+                                        <img src={item.img} alt={item.name} className='littleimg' />
                                         <p className='para'>{item.name}</p>
                                     </div>
                                     <p>${item.price.toFixed(2)}</p>

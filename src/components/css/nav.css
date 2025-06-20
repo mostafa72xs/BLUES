@@ -19,9 +19,13 @@
 
 .first{
     margin-top:10px;
-
+    width: 80%;
+    height: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
-.first div{
+.first .logog{
     display:flex;
     justify-content: space-around;
     align-items:center;
@@ -99,7 +103,25 @@
     font-size:40px;
 }
 
-
+.account{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnlogs{
+    background-color: #013D47;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid #fff;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+.btnlogs:hover{
+    border:1px solid #013D47;
+    color: #013D47;
+    background-color: #fff;
+}
 
 @keyframes laydown{
     from {height: 0px};
@@ -113,20 +135,27 @@
 @media screen and (max-width:480px){
 
     Nav{
-        height: 70px;
+        height: 50px !important;
         max-width: 430px;
     }
+    .brandblue{
+        display:none !important;
+    }
+
     .burgericon{
         font-size: 40px;
-        margin-top: -100px;
+        margin-top: 0px;
         position: absolute;
         color:#013D47; 
         border: none;
         background: #fff;
-        margin-left: 50%;
+        margin-left: 60%;
         display:block;
     }
+    .account{
+        flex-direction: column;
 
+    }
     ul{
         margin-top: 50px;
         width: 300px;

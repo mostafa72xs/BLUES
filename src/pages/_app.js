@@ -12,6 +12,8 @@ import "../components/css/nav.css";
 import "../components/css/store.css";
 import "../components/Hooks/Loading.css";
 import '../components/css/Details.css'
+import '../components/css/logs.css'
+
 
 import "slick-carousel/slick/slick-theme.css";
 import { SidebarProvider } from "../components/Hooks/context-sidebar";
@@ -21,19 +23,26 @@ import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
 import { store, persistor } from '../store/store'
 import { ResultProvider } from "../components/Hooks/shippingContext";
+import { SessionProvider } from "next-auth/react";
+import { LogsProvider } from "@/components/Hooks/context-login";
+
 
 function App({ Component, pageProps }) {
     return (
-        <Provider store={store}>
+        
+            <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
-                <SidebarProvider>
-                    <ResultProvider>
-                        <Component {...pageProps} /> 
-                    </ResultProvider>
-                </SidebarProvider>
+                <SessionProvider session={pageProps.session}>
+                    <LogsProvider>
+                        <SidebarProvider>
+                            <ResultProvider>
+                                <Component {...pageProps} /> 
+                            </ResultProvider>
+                        </SidebarProvider>
+                    </LogsProvider>
+                </SessionProvider>
             </PersistGate>            
-        </Provider>
-                
+            </Provider>
     );
 }
 

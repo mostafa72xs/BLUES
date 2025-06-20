@@ -3,10 +3,6 @@
     margin-left: 50px;
 
 }
-.coldimg{
-    width:50px;
-    height: 50px;
-}
 .ch21{
     display:flex;
     justify-content: space-around;
@@ -19,7 +15,10 @@
     flex-direction: column;
     justify-content: space-around;
 }
-
+.littleimg{
+    width:50px;
+    height:50px
+}
 .Address input{
     width: 100%;
     height: 56px;
