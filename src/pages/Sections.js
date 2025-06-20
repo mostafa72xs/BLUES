@@ -9,16 +9,15 @@ import { useSidenav } from "../components/Hooks/context-sidebar";
 
 
 
-export async function getServerSideProps() {
-
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-  const res = await fetch(`${baseUrl}/api/products`);
-  const pro = await res.json();
-
-  return {
-    props: { pro },
-  };
-}
+export async function getStaticProps() {
+    const res = await fetch('https://api-chi-teal-89.vercel.app/api');
+    const pro = await res.json();
+    
+  
+    return {
+      props: { pro },
+    };
+  }
 
 function Section ({pro}){
     const [ Nav , setNav ] = useSidenav()
