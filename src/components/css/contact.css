@@ -87,6 +87,9 @@ form div input{
         flex-direction: column;
 
     }
+    ..boxtex{
+        margin-left: -150px !important;
+    }
     .forms{
         width:100%;
         height: auto;
