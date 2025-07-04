@@ -133,6 +133,7 @@ button{
         display: none;
         }
     .grid{
+        margin-left:-10px !important;
     width:100%;
     display: flex;
     flex-direction: column;
