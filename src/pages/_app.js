@@ -13,6 +13,7 @@ import "../components/css/store.css";
 import "../components/Hooks/Loading.css";
 import '../components/css/Details.css'
 import '../components/css/logs.css'
+import './page.module.css'
 
 
 import "slick-carousel/slick/slick-theme.css";
