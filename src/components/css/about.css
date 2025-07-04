@@ -44,4 +44,8 @@
     .ime{
         display:none
     }
+    .center{
+	margin-left:30px !important;
+	padding:0 100px !important;
+}
 }
