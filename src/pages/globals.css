@@ -24,8 +24,3 @@ body {
   box-sizing: border-box;
 }
 
-@media screen amd (max-width:992px){
-	body{
-	margin-left:0px !important
-		
-}
