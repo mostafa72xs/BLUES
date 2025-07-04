@@ -1,1 +1,36 @@
-
+@media screen and( max-width:600px ){
+  .h1{
+	padding-left:25px !important;
+	font-size:24px !important;
+}
+.s1 div{
+	margin-left:0px !important;
+}
+.sec2{
+	margin-left:-25px !important;
+}
+.right{
+	margin-left:95% !important;
+}
+.brand{
+	margin-bottom:50px !important;
+	margin-left:20px
+}
+.boxtex{
+	margin-left: -150px !important;
+}
+.center{
+	margin-left:30px !important;
+	padding:0 100px !important;
+}
+.grid{
+	margin-left:-10px !important;
+}
+.out{
+	margin-left: 0px !important;
+}
+x300{
+	margin-left: -30px !important;
+}
+  
+}
